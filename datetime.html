@@ -1,0 +1,21 @@
+<!-- 
+	Web page having JavaScript for getting the current date and time at the
+	time on opening the page (at the time the page is loaded). There is no
+	formatting done, so the date and time are presented as a timestamp
+	returned by JavaScript.
+-->
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>First dynamic web page</title>
+</head>
+
+<body onload="document.getElementById('datetime').innerHTML = new Date();">
+	<p id="datetime">
+		JavaScript is not enabled or something else went wrong.
+	</p>
+</body>
+</html>
